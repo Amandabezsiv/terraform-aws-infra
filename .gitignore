@@ -1,0 +1,15 @@
+# Arquivos de configuração do Terraform
+.terraform/
+
+# Estado do Terraform (contém dados sensíveis!)
+*.tfstate
+*.tfstate.*
+
+# Arquivos de backup do Terraform
+*.backup
+
+# Logs e arquivos temporários
+*.log
+
+# Arquivos que contenham variáveis de ambiente, se houver
+*.env
