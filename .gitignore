@@ -2,14 +2,16 @@
 .terraform/
 
 # Estado do Terraform (contém dados sensíveis!)
-*.tfstate
-*.tfstate.*
+**/*.tfstate
+**/*.tfstate.*
 
 # Arquivos de backup do Terraform
-*.backup
+**/*.backup
 
 # Logs e arquivos temporários
-*.log
+**/*.log
 
 # Arquivos que contenham variáveis de ambiente, se houver
-*.env
+**/*.env
+
+**/*.tfvars
